@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html, body, .demo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+  
+h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.scroll-container {
+  position: relative;
+  height: 450px;
+  width: 50%;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none
+    }
+  }
+}
+
+.position {
+  position: absolute;
+  top: 150px;
+  left: 60%;
+}
+  
