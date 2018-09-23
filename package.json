@@ -1,9 +1,10 @@
 {
-  "name": "scroll-on-uiwebview",
+  "name": "@dwqs/scroll-on-uiwebview",
   "version": "1.0.0",
   "description": "Scroll on uiwebview",
   "author": "pomysky@gmail.com",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "prepush": "npm run ilint -q",
     "dev": "npx cross-env NODE_ENV=development node ./build/dev-server.js",
