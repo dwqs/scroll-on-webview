@@ -13,6 +13,11 @@
     "fix": "npx standard --fix",
     "commitmsg": "commitlint -E GIT_PARAMS"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {},
   "devDependencies": {
     "react": "^16.4.1",
