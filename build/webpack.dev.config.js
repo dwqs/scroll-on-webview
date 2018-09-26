@@ -15,7 +15,7 @@ module.exports = merge(baseWebpackConfig, {
   entry: {
     app: [
       require.resolve('react-dev-utils/webpackHotDevClient'),
-      utils.resolve('src/demo/index.js')
+      utils.resolve('demo/index.js')
     ]
   },
   module: {

@@ -19,7 +19,7 @@ const matchVendorsChunk = /react|react-dom|react-router-dom|history|react-loadab
 module.exports = merge(baseWebpackConfig, {
   entry: {
     app: [
-      utils.resolve('src/demo/index.js')
+      utils.resolve('demo/index.js')
     ]
   },
   module: {

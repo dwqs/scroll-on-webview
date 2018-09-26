@@ -10,7 +10,7 @@ const env = process.env.NODE_ENV || 'development'
 
 module.exports = {
   mode: env,
-  context: utils.resolve('src'),
+  context: utils.resolve('demo'),
   module: {
     noParse: [/static|assets/],
     rules: [
