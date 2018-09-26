@@ -6,7 +6,7 @@ import ScrollOnWebview from '@src/index'
 
 function genData () {
   const a = []
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 200; i++) {
     a.push(i + 1)
   }
 
@@ -26,7 +26,7 @@ export default class App extends React.Component {
   render () {
     return (
       <div className='demo'>
-        <h3>ScrollOnUIWebview</h3>
+        <h3>ScrollOnWebview</h3>
         <div id='wrap' className='scroll-container'>
           <div className='scroller'>
             <ul>
