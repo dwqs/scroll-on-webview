@@ -76,7 +76,8 @@
     "parser": "babel-eslint",
     "ignore": [
       "*.svg",
-      "*.less"
+      "*.less",
+      "dist"
     ]
   },
   "husky": {
