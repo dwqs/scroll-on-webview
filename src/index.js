@@ -1,4 +1,3 @@
-
 /**
  * 本项目改造自：https://github.com/cubiq/iscroll/
  */
@@ -35,7 +34,7 @@ export default class ScrollOnWebview {
     this.wrapper = typeof el === 'string' ? document.querySelector(el) : el
     this.scroller = this.wrapper.children[0]
     this.scrollerStyle = this.scroller.style
-    this.options = Object.assign({}, {...defaultOptions}, {...options})
+    this.options = Object.assign({}, { ...defaultOptions }, { ...options })
 
     this.x = 0
     this.y = 0
@@ -109,7 +108,7 @@ export default class ScrollOnWebview {
       y = +matrix.top.replace(/[^-\d.]/g, '')
     }
 
-    return {x, y}
+    return { x, y }
   }
 
   updateSizes () {
