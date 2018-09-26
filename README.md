@@ -65,5 +65,14 @@ myScroll.on('scrollEnd', doSomething);
 * `scrollEnd`：滚动结束时触发
 * `momentum`：执行弹性缓冲时触发
 
+## Development
+```shell
+git clone git@github.com:dwqs/scroll-on-webview.git
+
+cd scroll-on-webview && npm i
+
+npm run dev
+```
+
 ## LICENSE
 MIT
