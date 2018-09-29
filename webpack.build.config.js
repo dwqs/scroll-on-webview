@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     index: path.resolve(__dirname, './src/index')
   },
@@ -22,16 +22,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.vue', '.js'],
+    extensions: ['.js'],
     modules: [path.join(__dirname, './node_modules')]
-  },
-
-  externals: [{
-    'react': {
-      root: 'React',
-      commonjs2: 'react',
-      commonjs: 'react',
-      amd: 'react'
-    }
-  }]
+  }
 }
